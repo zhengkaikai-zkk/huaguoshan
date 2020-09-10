@@ -1,0 +1,32 @@
+// 变量
+$border_color: #eeeeee;
+$color: #C1164B;
+$gary: #707070;
+$gary_title: #666666;
+$import_word: #FCC100;
+$active_color: #FF5D6F;
+// 混合器
+@mixin all_flex {
+    display:-webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+// 移动端细边框
+// $direction：边框的位置，top,bottom,left,right
+// $color：边框颜色
+// 横向
+// @mixin borderAcross($direction: bottom,$color: #eeeeee) {
+//     background-image: -webkit-linear-gradient(bottom,transparent 60%,$color 60%);
+//     background-repeat: no-repeat;
+//     background-size: 100% 1px;
+//     background-position: $direction;
+// }
+// // 竖向
+// @mixin borderVertical($direction: left,$color: #eeeeee) {
+//     background-image: -webkit-linear-gradient(left,transparent 60%,$color 60%);
+//     background-repeat: no-repeat;
+//     background-size: 1px 100%;
+//     background-position: $direction;
+// }

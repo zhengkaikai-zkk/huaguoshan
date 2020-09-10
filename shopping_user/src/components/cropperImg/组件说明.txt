@@ -1,0 +1,11 @@
+图片裁剪组件
+依赖：cropperjs
+<cropperImg 
+:show="true/false" 
+:imgUrl="需要裁剪的图片链接"
+@reelect="重新图片方法"
+@returnImg="返回裁剪完成的图片"
+/>
+returnImg(img) {
+    img为裁剪完成的base64图片
+}

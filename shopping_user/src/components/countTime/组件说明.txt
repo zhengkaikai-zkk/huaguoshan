@@ -1,0 +1,4 @@
+倒计时组件
+<countTime :startTime="开始时间" :dayNum="倒计时天数" />
+startTime 需传入时间戳
+dayNum 可传入小数

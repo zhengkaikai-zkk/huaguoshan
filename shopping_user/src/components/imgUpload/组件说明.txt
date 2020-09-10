@@ -1,0 +1,13 @@
+图片上传预览组件
+依赖：lrz (用于压缩图片)
+<imgUpload 
+:imgList="上传的图片数组"
+:maxlength="最大上传数，默认值为9"
+:needOriginal="是否需要输出原图，默认为false"
+:upload="是否显示图片上传选择框，默认为true"
+@change="返回压缩后的图片，注意返回的是一张图片"
+@original="返回未压缩的原图，同样返回的是一张图片"
+/>
+change(img) {
+    需在此方法中将img存入imgList传回组件
+}

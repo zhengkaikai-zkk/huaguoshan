@@ -1,0 +1,3 @@
+移动端页头组件
+<pageHeader titleName="页面标题" />
+默认返回按钮触发$router.go(-1)
