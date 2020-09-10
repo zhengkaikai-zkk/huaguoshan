@@ -1,3 +1,3 @@
 # huaguoshang
 花果山项目组
-一个vue 
+包括后台管理员页面shopping_admin和用户端shopping_user页面，是一个标准的vue商城项目
